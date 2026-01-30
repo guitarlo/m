@@ -3,5 +3,5 @@ m is a menu for the terminal that collects all applications on the system. Usefu
 
 <b>Build</b>
 
-gcc main.c -o m -lncurses
+gcc main.c -o m -lncurses <br>
 cp ./m /usr/bin
