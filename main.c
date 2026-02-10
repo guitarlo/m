@@ -147,7 +147,7 @@ int main() {
         box(menu_win, 0, 0);
 
         // Titel mit App-Anzahl
-        mvwprintw(menu_win, 0, 2, " cmenu (%d/%d) by C. Mansfeld ", filtered_count, app_count);
+       mvwprintw(menu_win, 0, 2, " m (%d/%d) by C. Mansfeld ", filtered_count, app_count);
 
         // Suchleiste anzeigen
         mvwprintw(menu_win, 1, 2, "Suche: %s", search);
